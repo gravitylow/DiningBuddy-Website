@@ -534,6 +534,7 @@ header a.button {
   position: absolute;
   right: 0;
   top: 0;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
   width: 138px;
@@ -875,4 +876,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
-
