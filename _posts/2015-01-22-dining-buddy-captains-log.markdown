@@ -14,7 +14,7 @@ It's incredibly cool to see everything taking off. I learned a lot just working 
 worked on actually be used and talked about is just the most amazing thing. I'm really glad everyone has found it so
 useful!
 
-As many people are aware, the iOS version currently available (1.0.2) has some location bugs. A couple hours after releasing 
+As many people are aware, the iPhone version currently available (1.0.2) has some location bugs. A couple hours after releasing 
 DiningBuddy, I was notified that some people's iOS devices weren't updating the fact that they were in one of the dining 
 halls, even when they really were. After frantically eating dinner and running over to Einstein's to do some debugging, 
 I realized the GPS accuracy I had assumed would work fine for my purposes was actually nowhere near sharp enough to 

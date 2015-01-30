@@ -15,7 +15,7 @@ make the service the best that it can be, please help me with the following:
 2. Report any **bugs** you encounter by emailing me at ad@mfendley.com with details. I respond to every email.
 3. **Tell your friends**, and get them to download the app! The more users there are to provide data, the more accurate
 predictions can be about how crowded the dining halls are.
-4. If you're interested in **beta testing** new versions of the app for either iOS or Android and giving feedback, shoot me 
+4. If you're interested in **beta testing** new versions of the app for either iPhone or Android and giving feedback, shoot me 
 an email and let me know.
 
 If you feel so inclined, you can help me out personally by **donating**. We college students can be pretty cheap which
