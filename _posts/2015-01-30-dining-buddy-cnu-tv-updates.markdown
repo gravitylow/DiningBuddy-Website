@@ -4,7 +4,7 @@ title:  "DiningBuddy on CNU TV, and some Android updates"
 date:   2014-01-30 12:00:00
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4XYmmR76Pfw&t=7m34s" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4XYmmR76Pfw?start=454" frameborder="0" allowfullscreen></iframe>
 
 This week I got to sit down with the great folks over at [CNU TV](https://www.youtube.com/user/cnucaptainslog) to talk 
 about DiningBuddy and what the plans are moving forward with the project. Check out Episode 6 to see the piece, and
