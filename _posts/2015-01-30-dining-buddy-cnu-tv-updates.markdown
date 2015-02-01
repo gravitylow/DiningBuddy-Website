@@ -12,7 +12,7 @@ thanks to CNU TV for covering the app!
 
 DiningBuddy users are continuing to grow thanks to supporters like you guys who are helping share the app just with word
 of mouth. I'm really proud to be apart of such a cool community where something like this can happen! In update news for
-this week, Android received a bump to version 1.0.5 which includes support for over **2,000** new Android devices. If
+this week, Android received a bump to version 1.0.4 which includes support for over **2,000** new Android devices. If
 you've been unable to get DiningBuddy on your phone, you should definitely 
 [check the play store](https://play.google.com/store/apps/details?id=net.gravitydevelopment.cnu) again and grab your
 copy.
