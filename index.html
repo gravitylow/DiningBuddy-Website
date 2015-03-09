@@ -6,24 +6,27 @@ title: DiningBuddy
 <h1><a id="dining-buddy" class="anchor" href="#dining-buddy" aria-hidden="true"><span
         class="octicon octicon-link"></span></a>DiningBuddy</h1>
 <br>
-<img src="/images/devices/iphone_white_portrait_main_cropped.png" width="30%" height="30%" align="left" hspace="20">
-<p>DiningBuddy is a social dining experiment created for Christopher Newport University.</p>
-<p>The goal of the project is to create a social dining experience on campus that allows students to share information
-  about the dining halls from their smartphones.</p>
-<p>By using the location services of these devices and a digital GPS
-  coordinate-based map of campus, it is possible to determine how many students using the app are present in a dining
-  hall at any given time. By combining this data with information provided by students about how crowded their dining hall
-  is, the service attempts to make a prediction about the overall status of the location.</p>
-<p>For more information: see the <a href="/about">about page</a>.</p>
-<br><br><br><br><br>
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div id="wrapper">
+  <div id = "about">
+    <img src="/images/devices/iphone_white_portrait_main.png" width="30%" height="30%" align="left" hspace="20">
+    <p>DiningBuddy is a social dining experiment created for Christopher Newport University.</p>
+    <p>The goal of the project is to create a social dining experience on campus that allows students to share information
+      about the dining halls from their smartphones.</p>
+    <p>By using the location services of these devices and a digital GPS
+      coordinate-based map of campus, it is possible to determine how many students using the app are present in a dining
+      hall at any given time. By combining this data with information provided by students about how crowded their dining hall
+      is, the service attempts to make a prediction about the overall status of the location.</p>
+    <p>For more information: see the <a href="/about">about page</a>.</p>
+  </div>
+  <div id="posts" style="clear: both;">
+    <br>
+    <h1>Blog Posts</h1>
+    <ul class="posts">
+      {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
 <h1><a id="activity" class="anchor" href="#activity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recent Activity

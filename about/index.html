@@ -5,43 +5,49 @@ title: "About"
 <h1><a id="about-dining-buddy" class="anchor" href="#about-dining-buddy" aria-hidden="true"><span
         class="octicon octicon-link"></span></a>About DiningBuddy</h1>
 <br>
-<img src="/images/devices/galaxys4_black_portrait_graph_cropped.png" width="30%" height="30%" align="left" hspace="20">
-<p>DiningBuddy is a social dining experiment created for Christopher Newport University.</p>
-<p>The goal of the project is to create a social dining experience on campus that allows students to share information
-about the dining halls from their smartphones.</p>
-<p>By using the location services of these devices and a digital GPS
-coordinate-based map of campus, it is possible to determine how many students using the app are present in a dining
-hall at any given time. By combining this data with information provided by students about how crowded their dining hall
-is, the service attempts to make a prediction about the overall status of the location.</p>
-<br><br><br><br><br>
-<img src="/images/devices/iphone_white_portrait_menu_cropped.png" width="30%" height="30%" align="right" hspace="20">
-<p>DiningBuddy is a project of three parts:
-<ul>
-  <li><strong>The Server (written in Python)</strong></li>
-  <ul>
-    <li>The server setup uses industry-standard TLS/SSL encryption to protect any data you communicate to it.</li>
-    <li>Third-party projects used:</li>
+<div id="wrapper">
+  <div id="about">
+    <img src="/images/devices/galaxys4_black_portrait_graph.png" width="30%" height="30%" align="left" hspace="20">
+    <p>DiningBuddy is a social dining experiment created for Christopher Newport University.</p>
+    <p>The goal of the project is to create a social dining experience on campus that allows students to share information
+    about the dining halls from their smartphones.</p>
+    <p>By using the location services of these devices and a digital GPS
+    coordinate-based map of campus, it is possible to determine how many students using the app are present in a dining
+    hall at any given time. By combining this data with information provided by students about how crowded their dining hall
+    is, the service attempts to make a prediction about the overall status of the location.</p>
+  </div>
+  <div id="details" style="clear: both;">
+    <br>
+    <img src="/images/devices/iphone_white_portrait_menu.png" width="30%" height="30%" align="right" hspace="20">
+    <p>DiningBuddy is a project of three parts:
     <ul>
-      <li><a href="http://flask.pocoo.org/">Flask</a></li>
-      <li><a href="http://www.mongodb.org/">MongoDB</a></li>
-      <li><a href="http://pygal.org/">Pygal</a></li>
+      <li><strong>The Server (written in Python)</strong></li>
+      <ul>
+        <li>The server setup uses industry-standard TLS/SSL encryption to protect any data you communicate to it.</li>
+        <li>Third-party projects used:</li>
+        <ul>
+          <li><a href="http://flask.pocoo.org/">Flask</a></li>
+          <li><a href="http://www.mongodb.org/">MongoDB</a></li>
+          <li><a href="http://pygal.org/">Pygal</a></li>
+        </ul>
+      </ul>
+      <li><strong>The Android App (written in Java)</strong></li>
+      <ul>
+        <li>Third-party projects used:</li>
+        <ul>
+          <li><a href="https://github.com/eluleci/FlatUI">FlatUI</a></li>
+        </ul>
+      </ul>
+      <li><strong>The iPhone App (written in Objective-C)</strong></li>
+      <ul>
+        <li>Third-party projects used:</li>
+        <ul>
+          <li><a href="https://github.com/tonymillion/Reachability">Reachability</a></li>
+        </ul>
+      </ul>
     </ul>
-  </ul>
-  <li><strong>The Android App (written in Java)</strong></li>
-  <ul>
-    <li>Third-party projects used:</li>
-    <ul>
-      <li><a href="https://github.com/eluleci/FlatUI">FlatUI</a></li>
-    </ul>
-  </ul>
-  <li><strong>The iPhone App (written in Objective-C)</strong></li>
-  <ul>
-    <li>Third-party projects used:</li>
-    <ul>
-      <li><a href="https://github.com/tonymillion/Reachability">Reachability</a></li>
-    </ul>
-  </ul>
-</ul>
+  </div>
+</div>
 <p>The GPS coordinate map of CNU's dining halls is shown below and can give you an idea of the boundaries and general
 setup of the area detection system. The
 <a href="https://gist.githubusercontent.com/gravitylow/880a07282d35b2428766/raw/0773c80c2c538852c6fad4dbd4a92c54aa83a79c/cnu.geojson">raw geojson</a>
